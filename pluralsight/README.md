@@ -23,7 +23,7 @@
 
 ### HTML
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | [⎙]() | `Beginner` |
 | 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) | [⎙](/frontend/frontend-web-development-get-started) | `Beginner` |
@@ -43,7 +43,7 @@
 
 ### CSS
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Introduction to CSS](http://www.pluralsight.com/courses/css-intro) | [⎙]() | `Beginner` |
 | 02 | [CSS3](http://www.pluralsight.com/courses/css3) | [⎙]() | `Beginner` |
@@ -58,7 +58,7 @@
 
 ### JavaScript
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | [⎙]() | `Beginner` |
 | 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Beginner` |
@@ -85,7 +85,7 @@
 
 ### AngularJS
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [AngularJS: Get Started](http://www.pluralsight.com/courses/angularjs-get-started) | [⎙]() | `Beginner` |
 | 02 | [AngularJS Patterns: Clean Code](http://www.pluralsight.com/courses/angularjs-patterns-clean-code) | [⎙]() | `Beginner` |
@@ -105,7 +105,7 @@
 
 ### React
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [React Fundamentals](http://www.pluralsight.com/courses/react-fundamentals) | [⎙]() | `Intermediate` |
 | 02 | [React.js: Getting Started](http://www.pluralsight.com/courses/react-js-getting-started) | [⎙]() | `Beginner` |
@@ -115,7 +115,7 @@
 
 ### NodeJS
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Real-Time Web with Node.js](http://www.pluralsight.com/courses/real-time-web-nodejs) | [⎙](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/02-real-time-web-with-nodejs )| `Intermediate` |
 | 02 | [Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns)  | [⎙]() | `Intermediate` |
@@ -129,7 +129,7 @@
 
 ## Software Engineering
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Clean Code: Writing Code for Humans](http://www.pluralsight.com/courses/writing-clean-code-humans) | [⎙]() | `Intermediate` |
 | 02 | [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) | [⎙]() | `Intermediate` |
@@ -146,7 +146,7 @@
 
 ## QA
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [TDD as a Design Tool](http://www.pluralsight.com/courses/tdd-as-design-tool) | [⎙]() | `Intermediate` |
 | 02 | [Improving Testability Through Design](http://www.pluralsight.com/courses/improving-testability-through-design) | [⎙]() | `Intermediate` |
@@ -157,7 +157,7 @@
 
 ## DataBase Administration
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Understanding NoSQL](http://www.pluralsight.com/courses/understanding-nosql) | [⎙]() | `Beginner` |
 | 02 | [Introduction to MongoDB](http://www.pluralsight.com/courses/mongodb-introduction) | [⎙]() | `Intermediate` |
@@ -177,7 +177,7 @@
 
 ## DevOps
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [DevOps: The Big Picture](http://www.pluralsight.com/courses/devops-big-picture) | [⎙]() | `Beginner` |
 | 02 | [Continuous Integration and Deployment for AngularJS and Node.js](http://www.pluralsight.com/courses/continuous-integration-deployment-angularjs-nodejs) | [⎙]() | `Intermediate` |
@@ -186,7 +186,7 @@
 
 ## SysAdmin
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Linux System Administration Fundamentals](http://www.pluralsight.com/courses/linux-system-administration-fundamentals) | [⎙]() | `Beginner` |
 | 02 | [Amazon Web Services (AWS) Fundamentals for System Administrators](http://www.pluralsight.com/courses/aws-system-admin-fundamentals) | [⎙]() | `Beginner` |
@@ -209,7 +209,7 @@
 
 ## Security
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Play by Play: Website Security Review with Troy Hunt and Lars Klint](http://www.pluralsight.com/courses/play-by-play-website-security-review-troy-hunt-lars-klint) | [⎙]() | `Intermediate` |
 | 02 | [Secure Account Management Fundamentals](http://www.pluralsight.com/courses/secure-account-management-fundamentals) | [⎙]() | `Intermediate` |
@@ -218,7 +218,7 @@
 
 ## Others
 
-| Number | Course | Annotations | Difficulty |
+| Number | Course | Finished | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [HTTP Fundamentals](http://www.pluralsight.com/courses/xhttp-fund) | [⎙]() | `Beginner` |
 | 02 | [Five Essential Tools for Building REST APIs](http://www.pluralsight.com/courses/five-essential-tools-building-rest-api) | [⎙]() | `Beginner` |
