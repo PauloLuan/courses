@@ -118,10 +118,10 @@
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Real-Time Web with Node.js](http://www.pluralsight.com/courses/real-time-web-nodejs) | [⎙](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/02-real-time-web-with-nodejs )| `Intermediate` |
-| 02 | <strike>[Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns)</strike>  | [⎙]() | `Intermediate` |
+| 02 | [Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns)  | [⎙]() | `Intermediate` |
 | 03 | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | [⎙]() | `Intermediate` |
 | 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | [⎙](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/01-restful-webservices-with-node-and-express) | `Intermediate` |
-| 05 | <strike>[Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs)</strike> | [⎙]() | `Intermediate` |
+| 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | [⎙]() | `Intermediate` |
 | 06 | [Building Web Applications with hapi](http://www.pluralsight.com/courses/hapi-building-web-applications) | [⎙]() | `Intermediate` |
 | 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) | [⎙]() | `Intermediate` |
 | 08 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
