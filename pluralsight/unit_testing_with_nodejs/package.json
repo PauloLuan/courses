@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/PauloLuan/courses/issues"
   },
-  "homepage": "https://github.com/PauloLuan/courses#readme"
+  "homepage": "https://github.com/PauloLuan/courses#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.3.3"
+  }
 }
