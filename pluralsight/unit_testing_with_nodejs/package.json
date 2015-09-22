@@ -1,0 +1,24 @@
+{
+  "name": "unit_testing_with_nodejs",
+  "version": "1.0.0",
+  "description": "Exercise files of course",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloLuan/courses.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "node"
+  ],
+  "author": "PauloLuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PauloLuan/courses/issues"
+  },
+  "homepage": "https://github.com/PauloLuan/courses#readme"
+}
