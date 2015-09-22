@@ -130,7 +130,7 @@
 | 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | [](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/01-restful-webservices-with-node-and-express) | `Intermediate` |
 | 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | []() | `Intermediate` |
 | 06 | [Building Web Applications with hapi](http://www.pluralsight.com/courses/hapi-building-web-applications) | []() | `Intermediate` |
-| 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) | []() | `Intermediate` |
+| 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) | [x]() | `Intermediate` |
 | 08 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | []() | `Intermediate` |
 | 09 | [Introduction to Koa Javascript](http://www.pluralsight.com/courses/javascript-koa-introduction) | []() | `Intermediate` |
 
