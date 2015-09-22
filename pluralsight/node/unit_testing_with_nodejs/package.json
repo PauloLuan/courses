@@ -4,7 +4,7 @@
   "description": "Exercise files of course",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w"
+    "test": "gulp watch-mocha"
   },
   "repository": {
     "type": "git",
