@@ -246,3 +246,5 @@
 | 19 | [Smash into Vim](http://www.pluralsight.com/courses/smash-into-vim) | []() | `Beginner` |
 | 20 | [Introduction to Presentation Design](http://www.pluralsight.com/courses/presentation-design-introduction) | []() | `Beginner` |
 | 21 | [Node.js and the Internet of Things Using Intel Edison](http://www.pluralsight.com/courses/discussion/nodejs-internet-of-things-intel-edison) | []() | `Intermediate` |
+
+Inspired from https://github.com/ericdouglas/courses
