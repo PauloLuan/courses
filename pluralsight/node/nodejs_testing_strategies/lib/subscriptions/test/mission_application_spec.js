@@ -40,9 +40,25 @@ describe('Applying for a mission', function() {
   });
 
   describe('Application invalid if...', function() {
-    it('email is 4 chars os less');
-    it('email does not contain @');
-    it('email is omitted');
+    it('email is 4 chars os less', function() {
+      var mockApp = new MembershipApplication({
+        email: 't@t'
+      });
+      assert(!mockApp.emailIsValid());
+    });
+
+    it('email does not contain @', function() {
+      var mockApp = new MembershipApplication({
+        email: 'teste:teste.com'
+      });
+      assert(!mockApp.emailIsValid());
+    });
+
+    it('email is omitted', function() {
+      var mockApp = new MembershipApplication({});
+      assert(!mockApp.emailIsValid());
+    });
+
     it('height is less than 60 inches');
     it('height is more than 75 inches');
     it('height is omitted');
