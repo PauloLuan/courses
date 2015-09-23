@@ -125,8 +125,7 @@ describe('Applying for a mission', function() {
 
     it('last is omitted', function() {
       var mockApp = new MembershipApplication({
-        first: 'John',
-        last: 'bla'
+        first: 'John'
       });
       assert(!mockApp.nameIsValid(mockApp));
     });
