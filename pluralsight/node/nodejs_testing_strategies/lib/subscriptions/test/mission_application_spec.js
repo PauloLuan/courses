@@ -38,4 +38,21 @@ describe('Applying for a mission', function() {
       assert(validApp.weightIsValid());
     });
   });
+
+  describe('Application invalid if...', function() {
+    it('email is 4 chars os less');
+    it('email does not contain @');
+    it('email is omitted');
+    it('height is less than 60 inches');
+    it('height is more than 75 inches');
+    it('height is omitted');
+    it('age is more than 100');
+    it('age is less than 15');
+    it('age is omitted');
+    it('weight is less than 100');
+    it('weight is more than 300');
+    it('weight is omitted');
+    it('first is omitted');
+    it('last is omitted');
+  });
 });
