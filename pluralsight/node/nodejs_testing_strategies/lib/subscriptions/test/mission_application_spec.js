@@ -59,9 +59,25 @@ describe('Applying for a mission', function() {
       assert(!mockApp.emailIsValid());
     });
 
-    it('height is less than 60 inches');
-    it('height is more than 75 inches');
-    it('height is omitted');
+    it('height is less than 60 inches', function() {
+      var mockApp = new MembershipApplication({
+        height: 50
+      });
+      assert(!mockApp.heightIsValid());
+    });
+
+    it('height is more than 75 inches', function() {
+      var mockApp = new MembershipApplication({
+        height: 800
+      });
+      assert(!mockApp.heightIsValid());
+    });
+
+    it('height is omitted', function() {
+      var mockApp = new MembershipApplication({});
+      assert(!mockApp.heightIsValid());
+    });
+
     it('age is more than 100');
     it('age is less than 15');
     it('age is omitted');
