@@ -24,7 +24,9 @@ describe('Applying for a mission', function() {
     it('email is 4 or more chars and contains @', function() {
       assert(validApp.emailIsValid());
     });
-    it('age is between 15 and 100');
+    it('age is between 15 and 100', function() {
+      assert(validApp.ageIsValid());
+    });
     it('height is between 60 and 75 inches');
     it('weight is between 100 and 300');
   });

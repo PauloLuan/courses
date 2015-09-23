@@ -7,10 +7,15 @@ var MembershipApplication = function(args) {
 MembershipApplication.prototype.nameIsValid = function() {
   return this.first && this.last;
 };
+
 MembershipApplication.prototype.emailIsValid = function() {
   return this.email && this.email.length > 3 && this.email.indexOf('@') > -1;
 };
-MembershipApplication.prototype.ageIsValid = function() {};
+
+MembershipApplication.prototype.ageIsValid = function() {
+  return this.age && this.age > 15 && this.age < 100;
+};
+
 MembershipApplication.prototype.heightIsValid = function() {};
 MembershipApplication.prototype.weightIsValid = function() {};
 MembershipApplication.prototype.isValid = function() {
