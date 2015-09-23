@@ -21,6 +21,7 @@ describe('init describe', function() {
   });
 
   it.only('should execute only this function', function() {
+    // it works as well either with describe
     expect(true).to.be.true;
   });
 });
