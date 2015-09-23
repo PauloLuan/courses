@@ -97,9 +97,25 @@ describe('Applying for a mission', function() {
       assert(!mockApp.ageIsValid(mockApp));
     });
 
-    it('weight is less than 100');
-    it('weight is more than 300');
-    it('weight is omitted');
+    it('weight is less than 100', function() {
+      var mockApp = new MembershipApplication({
+        weight: 10
+      });
+      assert(!mockApp.weightIsValid(mockApp));
+    });
+
+    it('weight is more than 300', function() {
+      var mockApp = new MembershipApplication({
+        weight: 1000
+      });
+      assert(!mockApp.weightIsValid(mockApp));
+    });
+
+    it('weight is omitted', function() {
+      var mockApp = new MembershipApplication({});
+      assert(!mockApp.weightIsValid(mockApp));
+    });
+
     it('first is omitted');
     it('last is omitted');
   });
