@@ -25,7 +25,11 @@ MembershipApplication.prototype.weightIsValid = function() {
 };
 
 MembershipApplication.prototype.isValid = function() {
-  return this.nameIsValid();
+  return this.nameIsValid() &&
+    this.emailIsValid() &&
+    this.ageIsValid() &&
+    this.heightIsValid() &&
+    this.weightIsValid();
 };
 
 module.exports = MembershipApplication;
