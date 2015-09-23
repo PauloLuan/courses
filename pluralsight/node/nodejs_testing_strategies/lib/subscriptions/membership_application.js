@@ -4,15 +4,15 @@ var MembershipApplication = function(args) {
   _.extend(this, args);
 }
 
-MembershipApplication.prototype.isNameValid = function() {
+MembershipApplication.prototype.nameIsValid = function() {
   return this.first && this.last;
 };
-MembershipApplication.prototype.isEmailValid = function() {};
-MembershipApplication.prototype.isAgeValid = function() {};
-MembershipApplication.prototype.isHeightValid = function() {};
-MembershipApplication.prototype.isWeightValid = function() {};
+MembershipApplication.prototype.emailIsValid = function() {};
+MembershipApplication.prototype.ageIsValid = function() {};
+MembershipApplication.prototype.heightIsValid = function() {};
+MembershipApplication.prototype.weightIsValid = function() {};
 MembershipApplication.prototype.isValid = function() {
-  return this.isNameValid();
+  return this.nameIsValid();
 };
 
 module.exports = MembershipApplication;
