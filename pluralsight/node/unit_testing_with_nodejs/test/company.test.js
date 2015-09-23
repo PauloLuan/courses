@@ -44,4 +44,14 @@ describe('Company tests', function() {
     spy.called.should.be.true;
   });
 
+  it('should call a fake callback and show a message on the console', function() {
+    function showMessageOnConsole() {
+      console.log('You can process something inside a spy! This function was called when spy is executed');
+    };
+
+    var spy = sinon.spy(showMessageOnConsole);
+    company.addEmployee(employee1, spy);
+    spy.called.should.be.true;
+  });
+
 });
