@@ -16,7 +16,9 @@ MembershipApplication.prototype.ageIsValid = function() {
   return this.age && this.age > 15 && this.age < 100;
 };
 
-MembershipApplication.prototype.heightIsValid = function() {};
+MembershipApplication.prototype.heightIsValid = function() {
+  return this.height && this.height > 60 && this.height < 75;
+};
 MembershipApplication.prototype.weightIsValid = function() {};
 MembershipApplication.prototype.isValid = function() {
   return this.nameIsValid();
