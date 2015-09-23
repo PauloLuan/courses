@@ -116,7 +116,19 @@ describe('Applying for a mission', function() {
       assert(!mockApp.weightIsValid(mockApp));
     });
 
-    it('first is omitted');
-    it('last is omitted');
+    it('first is omitted', function() {
+      var mockApp = new MembershipApplication({
+        last: 'Doe'
+      });
+      assert(!mockApp.nameIsValid(mockApp));
+    });
+
+    it('last is omitted', function() {
+      var mockApp = new MembershipApplication({
+        first: 'John'
+      });
+      assert(!mockApp.nameIsValid(mockApp));
+    });
+
   });
 });
