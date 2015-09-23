@@ -14,11 +14,16 @@ describe('Applying for a mission', function() {
       });
     });
 
-    it('all validators successful');
-    it('first and last name are provided', function() {
+    it('all validators successful', function() {
       assert(validApp.isValid(), 'invalid app!');
     });
-    it('email is 4 or more chars and contains @');
+
+    it('first and last name are provided', function() {
+      assert(validApp.nameIsValid());
+    });
+    it('email is 4 or more chars and contains @', function() {
+      assert(validApp.emailIsValid());
+    });
     it('age is between 15 and 100');
     it('height is between 60 and 75 inches');
     it('weight is between 100 and 300');
