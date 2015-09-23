@@ -20,4 +20,8 @@ describe('init describe', function() {
     expect(true).to.be.true;
   });
 
+  it.only('should execute only this function', function(done) {
+    expect(true).to.be.true;
+  });
+
 });
