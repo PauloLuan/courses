@@ -27,7 +27,7 @@ describe('Company tests', function() {
     company.should.have.property('_employees');
   });
 
-  it('should do the wrong way of spy a function', function(done) {
+  it('should do the wrong way of spy a function', function() {
     var called = false;
 
     function callback() {
@@ -36,8 +36,12 @@ describe('Company tests', function() {
 
     company.addEmployee(employee1, callback);
     called.should.be.true;
+  });
 
-    done();
+  it('should do the right way to spy a function', function() {
+    var spy = sinon.spy();
+    company.addEmployee(employee1, spy);
+    spy.called.should.be.true;
   });
 
 });
