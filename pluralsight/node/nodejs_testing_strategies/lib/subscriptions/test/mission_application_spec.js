@@ -34,6 +34,8 @@ describe('Applying for a mission', function() {
       assert(validApp.heightIsValid());
     });
 
-    it('weight is between 100 and 300')
+    it('weight is between 100 and 300', function() {
+      assert(validApp.weightIsValid());
+    });
   });
 });
