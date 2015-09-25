@@ -130,5 +130,12 @@ describe('Applying for a mission', function() {
       assert(!mockApp.nameIsValid(mockApp));
     });
 
+    it('is expired ', function() {
+      var mockApp = new MembershipApplication({
+        validUntil: '09/31/2010'
+      });
+      assert(mockApp.expired());
+    });
+
   });
 });

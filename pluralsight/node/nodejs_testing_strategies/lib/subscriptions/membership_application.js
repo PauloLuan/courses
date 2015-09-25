@@ -1,8 +1,11 @@
-var _ = require('lodash');
+var _ = require('lodash'),
+  moment = require('moment');
 
 var MembershipApplication = function(args) {
+  args || (args = {});
   _.extend(this, args);
-}
+  this.validUntil = args.validUntil ? moment(new Date(args.validUntil)) : moment().add(10, 'days');
+};
 
 MembershipApplication.prototype.nameIsValid = function() {
   return this.first && this.last;
@@ -24,12 +27,17 @@ MembershipApplication.prototype.weightIsValid = function() {
   return this.weight && this.weight > 100 && this.weight < 300;
 };
 
+MembershipApplication.prototype.expired = function() {
+  return this.validUntil.isBefore(moment());
+};
+
 MembershipApplication.prototype.isValid = function() {
   return this.nameIsValid() &&
     this.emailIsValid() &&
     this.ageIsValid() &&
     this.heightIsValid() &&
-    this.weightIsValid();
+    this.weightIsValid() &&
+    !this.expired();
 };
 
 module.exports = MembershipApplication;
