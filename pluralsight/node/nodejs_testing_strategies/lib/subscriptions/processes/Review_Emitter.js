@@ -61,5 +61,5 @@ ReviewProcess.prototype.processApplication = function(app, next) {
   callback = next;
 };
 
-util.inherits();
+util.inherits(ReviewProcess, Emitter);
 module.exports = ReviewProcess;
