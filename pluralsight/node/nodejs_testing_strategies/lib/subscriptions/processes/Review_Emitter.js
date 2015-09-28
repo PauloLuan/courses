@@ -1,9 +1,16 @@
-var Emitter = require('events').EventEmitter,
+var EventEmitter = require('events').EventEmitter,
   util = require('util'),
+  _ = require('lodash'),
   self,
   callback;
 
-var ReviewProcess = function(args) {
+var ReviewProcess = function() {
+  this.init();
+};
+
+util.inherits(ReviewProcess, EventEmitter);
+
+ReviewProcess.prototype.init = function() {
   self = this;
 
   // event path
@@ -15,11 +22,11 @@ var ReviewProcess = function(args) {
   self.on("invalid", self.denyApplication);
 };
 
-ReviewProcess.prototype.ensureAppIsValid = function() {
+ReviewProcess.prototype.ensureAppIsValid = function(app) {
   if (app.isValid()) {
-    self.emmit('validated', app);
+    self.emit('validated', app);
   } else {
-    self.emmit('invalid', app.validationMessage());
+    self.emit('invalid', app.validationMessage());
   }
 };
 
@@ -31,15 +38,15 @@ ReviewProcess.prototype.findNextMission = function(app) {
     passengers: []
   };
 
-  self.emmit('mission-selected', app);
+  self.emit('mission-selected', app);
 };
 
 ReviewProcess.prototype.roleIsAvailable = function(app) {
-  self.emmit('role-available', app);
+  self.emit('role-available', app);
 };
 
 ReviewProcess.prototype.ensureRoleCompatible = function(app) {
-  self.emmit('role-compatible', app);
+  self.emit('role-compatible', app);
 };
 
 ReviewProcess.prototype.acceptApplication = function(app) {
@@ -57,9 +64,8 @@ ReviewProcess.prototype.denyApplication = function(message) {
 };
 
 ReviewProcess.prototype.processApplication = function(app, next) {
-  self.emmit('application-received');
   callback = next;
+  self.emit('application-received', app);
 };
 
-util.inherits(ReviewProcess, Emitter);
 module.exports = ReviewProcess;
