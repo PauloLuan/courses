@@ -9,7 +9,7 @@
   "author": "Paulo Luan",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "moment": "^2.10.6"
   }
 }
