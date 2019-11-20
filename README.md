@@ -24,31 +24,27 @@ Courses that I have seen
 ### JavaScript
 
 | Name | Duration | Finished | 
-| :---: | :--- | :---: | 
-
-[GatsbyJS: Getting Started](https://app.pluralsight.com/library/courses/gatsbyjs-getting-started)  | 2h 0m | :heavy_check_mark: Nov 20, 2019
-[Writing Functional JavaScript Using Ramda](https://app.pluralsight.com/library/courses/javascript-ramda-functional)  | 2h 8m  | :heavy_check_mark: Nov 19, 2019
-[TypeScript Fundamentals](https://app.pluralsight.com/library/courses/typescript) | 4h 25m  | :heavy_check_mark: Nov 14, 2019
+| :---: | :--- | :---: |
+| [GatsbyJS: Getting Started](https://app.pluralsight.com/library/courses/gatsbyjs-getting-started) | 2h 0m | :heavy_check_mark: Nov 20, 2019 |
+| [Writing Functional JavaScript Using Ramda](https://app.pluralsight.com/library/courses/javascript-ramda-functional) | 2h 8m | :heavy_check_mark: Nov 19, 2019 |
+| [TypeScript Fundamentals](https://app.pluralsight.com/library/courses/typescript) | 4h 25m | :heavy_check_mark: Nov 14, 2019 |
 
 
 ### AngularJS
 
 | Course | Duration | Finished |
 | :---: | :--- | :---: |
-
-[Unit Testint Angular](https://app.pluralsight.com/library/courses/unit-testing-angular) | 2h 7m  | :heavy_check_mark: Oct 11, 2019
+| [Unit Testint Angular](https://app.pluralsight.com/library/courses/unit-testing-angular) | 2h 7m | :heavy_check_mark: Oct 11, 2019 |
 
 ### React
 
 | Course | Duration | Finished |
 | :---: | :--- | :---: |
-
-[Advanced React.js ](https://app.pluralsight.com/library/courses/reactjs-advanced) | 3h 54m | :heavy_check_mark: Nov 18, 2019
-[Advanced Redux](https://app.pluralsight.com/library/courses/advanced-redux)  | 2h 55m | :heavy_check_mark: Nov 13, 2019
-[Building Applications with React and Flux ](https://app.pluralsight.com/library/courses/react-flux-building-applications) | 5h 11m | :heavy_check_mark: Nov 02, 2019
-[Using React Hooks](https://app.pluralsight.com/library/courses/using-react-hooks) | 1h 53m | :heavy_check_mark: Nov 20, 2019
-[Testing React Applications with Jest ](https://app.pluralsight.com/library/courses/testing-react-applications-jest) | 3h 36m | :heavy_check_mark: Nov 19, 2019
-
+| [Advanced React.js ](https://app.pluralsight.com/library/courses/reactjs-advanced) | 3h 54m | :heavy_check_mark: Nov 18, 2019 |
+| [Advanced Redux](https://app.pluralsight.com/library/courses/advanced-redux) | 2h 55m | :heavy_check_mark: Nov 13, 2019 |
+| [Building Applications with React and Flux ](https://app.pluralsight.com/library/courses/react-flux-building-applications) | 5h 11m | :heavy_check_mark: Nov 02, 2019 |
+| [Using React Hooks](https://app.pluralsight.com/library/courses/using-react-hooks) | 1h 53m | :heavy_check_mark: Nov 20, 2019 |
+| [Testing React Applications with Jest ](https://app.pluralsight.com/library/courses/testing-react-applications-jest) | 3h 36m | :heavy_check_mark: Nov 19, 2019
 ## BackEnd Development
 
 ### NodeJS
@@ -59,5 +55,4 @@ Courses that I have seen
 
 | Course | Duration | Finished |
 | :---: | :--- | :---: |
-
-[How to Speak to Business Leaders](https://app.pluralsight.com/library/courses/how-to-speak-to-business-leaders) | 2h 7m  | :heavy_check_mark: Oct 11, 2019
+|[How to Speak to Business Leaders](https://app.pluralsight.com/library/courses/how-to-speak-to-business-leaders) | 2h 7m | :heavy_check_mark: Oct 11, 2019 |
